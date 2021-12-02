@@ -1,0 +1,12 @@
+Gacha search algorithim
+
+the given data can be sorted or unsorted
+
+Steps:
+- input a value to look for
+- finds and picks a random node in array/list
+- compares if the random node selected is equal to the input
+- if random node is equal to input, then return random node
+- if not euqal, random node will be removed 
+- another random node will be picked to compare until there is a match found
+- if no matches found, return -1
